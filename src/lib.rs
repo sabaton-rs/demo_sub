@@ -1,4 +1,5 @@
 #![forbid(unsafe_code)]
+/* 
 use std::ops;
 use sabaton_mw::AsyncReader;
 use std::{time::Duration, sync::Arc};
@@ -85,4 +86,4 @@ pub fn example_node_main() -> Result<(),MiddlewareError> {
     });
     res
 
-}
+}*/

@@ -13,7 +13,7 @@ publish = false
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-sabaton-mw = { git = "https://github.com/sabaton-rs/sabaton-mw.git"}
+#sabaton-mw = { git = "https://github.com/sabaton-rs/sabaton-mw.git"}
 
 clap = { version= "3", features = ["cargo"]}
 tracing = "0.1"
@@ -22,11 +22,11 @@ tracing-subscriber = "0.3"
 
 ## Topics and Interfaces this Application depends on
 ## Interfaces
-interface-example = { git = "https://github.com/sabaton-rs/interface-example.git"}
+#interface-example = { git = "https://github.com/sabaton-rs/interface-example.git"}
 
 ## Topics
 
-vehicle-signals = "0.2"
+#vehicle-signals = "0.2"
 
 [profile.release]
 opt-level = "s"               # Use slightly better optimizations.
