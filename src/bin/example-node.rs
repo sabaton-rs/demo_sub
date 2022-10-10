@@ -1,6 +1,6 @@
 #![forbid(unsafe_code)]
 use clap::{arg, command};
-//use subscriber::example_node_main;
+use subscriber::example_node_main;
 use tracing::Level;
 fn main() {
     let matches = command!()
@@ -48,6 +48,5 @@ fn main() {
      */
     
 
-    //example_node_main().expect("Error running main");
-    println!("Hello World");
+    example_node_main().expect("Error running main");
 }
